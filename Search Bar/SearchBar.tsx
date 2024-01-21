@@ -1,3 +1,4 @@
+//Simple Search Bar with an icon on the right side using the dark mode palette. 
 import * as React from 'react';
 import { styled, createTheme, ThemeProvider } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
@@ -55,10 +56,10 @@ const SearchInput = styled(InputBase)(({ theme }) => ({
 
     return(
         <SearchContainer>
-                        <SearchIconContainer>
-                            <SearchIcon />
-                        </SearchIconContainer>
-                        <SearchInput placeholder="Search..." />
+          <SearchIconContainer>
+            <SearchIcon />
+              </SearchIconContainer>
+                <SearchInput placeholder="Search..." />
         </SearchContainer>
     );
   }

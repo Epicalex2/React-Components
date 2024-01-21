@@ -1,4 +1,4 @@
-// BookWidget.tsx
+// This widget involves an image in the front that flips to text in the back.
 import * as React from 'react';
 import Paper from '@mui/material/Paper';
 import { styled } from '@mui/system';
@@ -64,7 +64,7 @@ const Widget: React.FC<WidgetProps> = ({ /* destructure props here */ }) => {
         <ContentFront>
             {/* Front content goes here */}
             
-            <Image src={require('../Pictures/Michael Vey The Traitor Book Cover.jpg')} alt="Book Cover"/>
+            <Image src={require('Path to Picture Here')} alt="Book Cover"/>
         </ContentFront>
         <ContentBack>
         {/* Back content goes here */}
@@ -75,4 +75,4 @@ const Widget: React.FC<WidgetProps> = ({ /* destructure props here */ }) => {
   );
 };
 
-export default BookWidget;
+export default Widget;
